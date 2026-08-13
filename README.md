@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sahaara Foundation
 
 Production-ready Next.js starter for a Bengaluru NGO. Replace all demo figures, placeholder contacts, and placeholder recognition before publishing.
@@ -35,3 +36,7 @@ Install the Razorpay SDK, add a server-side order route, invoke checkout with on
 ## Deploy to Vercel
 
 Push this folder to a Git repository, import it in Vercel, add the environment variables above, set the real public site URL in `app/sitemap.ts` and `app/robots.ts`, then deploy. Add verified organisation details, contacts, payment settings and privacy/legal pages before accepting donations.
+=======
+# ngo-replica
+Sahaara foundation is a Grade 12 demo NGO website concept focused on nutritional meal programs, homeless mother support, and government school assistance. Built with Next.js, TypeScript and Tailwind CSS, it features donation flows, impact tracking, hygiene standards, volunteer registration and a modern responsive UI.
+>>>>>>> 6cb4d76e649c0d77d6a0739a1e31cf75a0ce78c9
