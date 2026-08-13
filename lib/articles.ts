@@ -1,0 +1,5 @@
+export const articles = [
+  { slug: "a-warm-meal-is-more-than-food", category: "Food & dignity", date: "Community note", title: "A warm meal is more than food", excerpt: "Reliable nourishment can create a moment of relief, routine and human connection.", image: "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=85" },
+  { slug: "what-safe-meal-service-looks-like", category: "Hygiene", date: "Field guide", title: "What safe meal service looks like", excerpt: "The ordinary practices that help protect every meal — from clean preparation to careful delivery.", image: "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1200&q=85" },
+  { slug: "small-school-essentials-big-confidence", category: "Education", date: "Community note", title: "Small school essentials, big confidence", excerpt: "A bag, a uniform or a set of notebooks can make it easier for a student to participate fully.", image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=85" },
+];

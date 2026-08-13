@@ -1,0 +1,1 @@
+import type {MetadataRoute} from "next";export default function sitemap():MetadataRoute.Sitemap{const base='https://example.org';return ['','/about','/food-safety','/standards','/mothers','/schools','/volunteer','/contact','/programs/morning-meals','/programs/midday-meals','/programs/evening-meals'].map(path=>({url:base+path,lastModified:new Date()}))}

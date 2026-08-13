@@ -1,0 +1,3 @@
+import type {Metadata} from "next";import "./globals.css";import {SiteHeader} from "@/components/site-header";import {SiteFooter} from "@/components/site-footer";
+export const metadata:Metadata={title:{default:"Sahaara Foundation | Food, dignity & education",template:"%s | Sahaara Foundation"},description:"A Bengaluru initiative supporting meals, mothers and government school students.",openGraph:{title:"Sahaara Foundation",description:"Good food. Safe hands. A better tomorrow.",type:"website"}};
+export default function Layout({children}:{children:React.ReactNode}){return <html lang="en"><body><SiteHeader/><main>{children}</main><SiteFooter/></body></html>}

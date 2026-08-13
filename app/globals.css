@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#FBF8F0;color:#1C2C25;font-family:Arial,Helvetica,sans-serif}
+.display{font-family:Georgia,'Times New Roman',serif}
+.eyebrow{letter-spacing:.16em;text-transform:uppercase;font-size:.72rem;font-weight:700;color:#a77830}
+.container{max-width:1180px;margin:auto;padding:0 24px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;border-radius:999px;padding:.8rem 1.25rem;font-size:.9rem;font-weight:700;transition:.2s}
+.btn-primary{background:#164A35;color:white}
+.btn-primary:hover{background:#0e3927}
+.btn-light{background:white;color:#164A35}
+.btn-outline{border:1px solid #164A35;color:#164A35}
+.card{background:white;border-radius:1.35rem;box-shadow:0 14px 45px rgba(22,74,53,.10)}
+input,select,textarea{width:100%;border:1px solid #d7dfd4;border-radius:.7rem;padding:.75rem;background:white}
+input:focus,select:focus,textarea:focus{outline:2px solid #C89D55;border-color:transparent}
+
+/* Ensure primary buttons are visible when placed on dark backgrounds */
+.bg-forest .btn.btn-primary{background:white;color:#164A35}
+.bg-forest .btn.btn-primary:hover{background:#f3f3f3}
